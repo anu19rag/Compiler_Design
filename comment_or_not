@@ -1,0 +1,14 @@
+line= input("Enter a line of code:").strip()
+
+if line.startswith('#'):
+
+print("It is a single line comment.")
+
+elif(line.startswith("'''") and line.endswith("'''")) 
+or (line.startswith("'''") and line endswith('"""')):
+
+print("It is a multi-line comment.")
+
+else:
+
+print("It is not a comment.")
