@@ -1,0 +1,13 @@
+operator = input("Enter an operator: ")
+
+operators = [
+    "+", "-", "*", "/", "%",
+    ">", "<", ">=", "<=", "==", "!=",
+    "=", "+=", "-=", "*=", "/=",
+    "and", "or", "not"
+]
+
+if operator in operators:
+    print(operator, "is a valid operator")
+else:
+    print(operator, "is NOT a valid operator")
