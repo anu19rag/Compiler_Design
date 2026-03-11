@@ -1,0 +1,9 @@
+import keyword
+
+identifier = input("Enter an identifier: ")
+
+if identifier.isidentifier() and not keyword.iskeyword(identifier):
+    print(identifier, "is a valid identifier")
+else:
+    print(identifier, "is NOT a valid identifier")
+
